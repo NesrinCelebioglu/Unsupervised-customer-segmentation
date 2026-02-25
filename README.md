@@ -2,8 +2,6 @@
 
 Dieses Projekt zeigt, wie Kunden eines Einzelhandelsunternehmens anhand ihres Kaufverhaltens in Gruppen eingeteilt werden können. Ziel ist es, gezielte Marketingstrategien für unterschiedliche Kundensegmente zu entwickeln.
 
----
-
 ## Datensatz
 
 Der Datensatz enthält historische Online- und Offline-Käufe von Kunden.
@@ -22,14 +20,10 @@ Der Datensatz enthält historische Online- und Offline-Käufe von Kunden.
 - `MONETARY` – Gesamtausgaben  
 - `FREQUENCY` – Gesamtanzahl Käufe  
 
----
-
 ## Feature Engineering
 
 - Berechnung von `Recency`, `Tenure`, `Monetary`, `Frequency`  
 - Skalierung numerischer Daten mit `MinMaxScaler` (0–1)  
-
----
 
 ## Clustering-Methoden
 
@@ -52,8 +46,6 @@ Der Datensatz enthält historische Online- und Offline-Käufe von Kunden.
 - Große Cluster (1,2,6): regelmäßige Kunden → Marketingmaßnahmen sinnvoll  
 - Cluster 3: Inaktive Kunden → Rückgewinnungskampagnen  
 - Cluster 4 & 5: Ausreißer → evtl. ausgeschlossen  
-
----
 
 ## Empfehlung
 
